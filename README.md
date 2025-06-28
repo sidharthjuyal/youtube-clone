@@ -1,2 +1,13 @@
 # youtube-clone
-This is a basic youtube clone
+This is a basic youtube clone.
+
+# App Structure
+- Header
+- Body
+   - SideBar
+      - MenuItems
+   - MainContainer
+      - ButtonList 
+      - VideoContainer
+      - VideoCard
+

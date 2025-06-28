@@ -1,8 +1,15 @@
 import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import Body from "./components/Body";
 
 const App = () => {
-    return (<h1>Hello!</h1>);
-}
+  return (
+    <div>
+      <Header />
+      <Body />
+    </div>
+  );
+};
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);

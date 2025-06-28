@@ -1,5 +1,29 @@
+import Button from "./Button";
+
+const list = [
+  "All",
+  "Gaming",
+  "Songs",
+  "Live",
+  "Soccer",
+  "Cricket",
+  "Cooking",
+  "Valentine",
+  "News",
+  "India",
+  "Russia",
+  "USA",
+  "France",
+];
+
 const ButtonList = () => {
-   return (<h1>ButtonList</h1>);
-}
+  return (
+    <div className="flex overflow-x-scroll overflowing-div">
+      {list.map((element, index) => {
+        return <Button key={element + index} name={element} />;
+      })}
+    </div>
+  );
+};
 
 export default ButtonList;

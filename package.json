@@ -1,0 +1,35 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "This is a youtube clone",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidharthjuyal/youtube-clone.git"
+  },
+  "author": "Sidharth Juyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidharthjuyal/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/sidharthjuyal/youtube-clone#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tailwindcss/postcss": "^4.1.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.6.3",
+    "tailwindcss": "^4.1.11"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}

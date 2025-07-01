@@ -6,3 +6,7 @@ export const YOUTUBE__LOGO_URL =
 
 export const USER_ICON =
   "http://pluspng.com/img-png/png-user-icon-circled-user-icon-2240.png";
+
+export const YOUTUBE_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=";
+
+export const YOUTUBE_SEARCH_API = "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";

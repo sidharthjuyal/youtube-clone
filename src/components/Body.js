@@ -1,11 +1,11 @@
-import MainContainer from "./MainContainer";
+import {Outlet} from "react-router";
 import SideBar from "./SideBar";
 
 const Body = () => {
   return (
     <div className="flex overflow-x-hidden">
       <SideBar />
-      <MainContainer />
+      <Outlet />
     </div>
   );
 };

@@ -10,4 +10,8 @@ This is a basic youtube clone.
       - ButtonList 
       - VideoContainer
       - VideoCard
+   - WatchPage
+      - CommentsList
+         - Comments
+      - LiveChat
 
